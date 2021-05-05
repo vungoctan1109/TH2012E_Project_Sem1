@@ -1940,7 +1940,7 @@ li {
     font-weight: 300;
     color: #fff;
     font-size: 1.6rem;
-    font-weight: 600;
+    /*font-weight: 600;*/
     letter-spacing: 2px;
     text-transform: uppercase;
     line-height: 3rem;
