@@ -1180,7 +1180,7 @@ a:hover {
 }
 
 /*header css*/
-/ menu /
+/* / menu / */
 header {
   position: relative;
   top: 0px;
@@ -1198,7 +1198,7 @@ header {
   display: flex;
   position: relative;
 }
-/ .logo-container /
+/* / .logo-container / */
 .logo-container {
   flex: 1;
   display: flex;

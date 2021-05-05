@@ -6,7 +6,6 @@ a {
   text-decoration: none;
   color: black;
 }
-
 a:hover {
   text-decoration: none;
   color: gray;
@@ -90,7 +89,7 @@ p {
 }
 
 .slideDiv {
-  alignment: center;
+  align-items: center;
   width: 70%;
   height: auto;
 }
