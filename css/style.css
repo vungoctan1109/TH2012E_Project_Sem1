@@ -164,7 +164,7 @@ header {
 }
 
 .dropdown-link:hover > a {
-    font-size: 1.1rem;
+    font-size: 1.05rem;
 }
 
 .dropdown-link:not(:nth-last-child(2)) {
