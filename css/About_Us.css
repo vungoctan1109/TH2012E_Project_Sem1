@@ -1025,3 +1025,10 @@ footer a:hover {
     font-size: 60px;
     transform: rotate(180deg);
 }
+
+@media (max-width: 1000px)
+{
+    .logo-container {
+        display: none;
+    }
+}
