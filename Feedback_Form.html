@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Feedback</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="../../TH2012E_Project_Sem1/TH2012E_Project_Sem1/css/font-awesome.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@200;400&display=swap"
+          rel="stylesheet">
+
+    <script src="https://kit.fontawesome.com/64d58efce2.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+          integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+          crossorigin="anonymous"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+
+
+    <link rel="stylesheet" href="css/Feedback_Form.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+</head>
+<body>
+<header>
+    <div class="container">
+        <input type="checkbox" name="" id="check">
+        <!-- //logo -->
+        <!-- <div class="logo-container">
+        <img src="/img/home/are-you1.png" alt="">
+        </div> -->
+        <!-- nav-bar -->
+        <div class="nav-btn ">
+            <div class="nav-links animate__animated animate__bounceInDown animate__delay-1s">
+                <ul>
+                    <li class="nav-link" style="--i: .6s">
+                        <a href="Home.html">Home</a>
+                    </li>
+                    <li class="nav-link" style="--i: .85s">
+                        <a href="#">Category<i class="fas fa-caret-down"></i></a>
+                        <div class="dropdown">
+                            <ul>
+                                <li class="dropdown-link">
+                                    <a href="#">Độ Tuổi<i class="fas fa-caret-down"></i></a>
+                                    <div class="dropdown second">
+                                        <ul>
+                                            <li class="dropdown-link">
+                                                <a href="#">Đô tuổi 1</a>
+                                            </li>
+                                            <li class="dropdown-link">
+                                                <a href="#">Đô tuổi 2</a>
+                                            </li>
+                                            <li class="dropdown-link">
+                                                <a href="#">Đô tuổi 3</a>
+                                            </li>
+                                            <div class="arrow"></div>
+                                        </ul>
+                                    </div>
+                                </li>
+                                <li class="dropdown-link">
+                                    <a href="#">Ngôn ngữ<i class="fas fa-caret-down"></i></a>
+                                    <div class="dropdown second">
+                                        <ul>
+                                            <li class="dropdown-link">
+                                                <a href="#">Ngôn ngữ 1</a>
+                                            </li>
+                                            <li class="dropdown-link">
+                                                <a href="#">Ngôn ngữ 2</a>
+                                            </li>
+                                            <li class="dropdown-link">
+                                                <a href="#">Ngôn ngữ 3</a>
+                                            </li>
+                                            <div class="arrow"></div>
+                                        </ul>
+                                    </div>
+                                </li>
+
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="nav-link" style="--i: 1.1s">
+                        <a href="#">Contact<i class="fas fa-caret-down"></i></a>
+                        <div class="dropdown">
+                            <ul>
+                                <li class="dropdown-link">
+                                    <a href="#">About</a>
+                                </li>
+                                <li class="dropdown-link">
+                                    <a href="#">FAQ</a>
+                                </li>
+                                <li class="dropdown-link">
+                                    <a href="#">FreedBack</a>
+                                </li>
+                                <div class="arrow"></div>
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="nav-link" style="--i: 1.1s">
+                        <a href="#">Library<i class="fas fa-caret-down"></i></a>
+                        <div class="dropdown">
+                            <ul>
+                                <li class="dropdown-link">
+                                    <a href="#">Courses</a>
+                                </li>
+                                <li class="dropdown-link">
+                                    <a href="#">Calligraphy Workbook</a>
+                                </li>
+                                <li class="dropdown-link">
+                                    <a href="#">Block</a>
+                                </li>
+                                <div class="arrow"></div>
+                            </ul>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="log-sign animate__animated animate__backInRight animate__delay-1s" style="--i: 1.8s">
+                <a href="#" class="btn transparent">Log in</a>
+                <a href="#" class="btn solid">Sign up</a>
+            </div>
+        </div>
+        <div class="hamburger-menu-container">
+            <div class="hamburger-menu">
+                <div></div>
+            </div>
+        </div>
+    </div>
+</header>
+<section class="hero">
+    <div class="container-xl">
+        <div class="row hero1">
+            <div class="col-12 col-sm-7 divForm">
+                <div class="row ">
+                    <h2 class="align-self-sm-center">Get in touch with us</h2>
+                </div>
+                <div class="row">
+                    <p class="text-left">"We would love to hear your thoughts, suggestions, concerns or problems with anything so we can
+                        improve!"</p>
+                </div>
+                <form id="feedBackForm">
+                    <div class="form-group row">
+                        <div class="col-sm-10">
+                            <input type="text" class="form-control" id="fullName" name="fullName"
+                                   placeholder="Full Name">
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <div class="col-sm-10">
+                            <input type="email" class="form-control" id="inputEmail3" name="email"
+                                   placeholder="Your email">
+                        </div>
+                    </div>
+                    <fieldset class="form-group">
+                        <div class="row">
+                            <div class="col-sm-10">
+                                <div class="form-check">
+                                    <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios1"
+                                           value="option1" checked>
+                                    <label class="form-check-label" for="gridRadios1">
+                                        Comments
+                                    </label>
+                                </div>
+                                <div class="form-check">
+                                    <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios2"
+                                           value="option2">
+                                    <label class="form-check-label" for="gridRadios2">
+                                        Suggestions
+                                    </label>
+                                </div>
+                                <div class="form-check">
+                                    <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios3"
+                                           value="option3">
+                                    <label class="form-check-label" for="gridRadios3">
+                                        Question
+                                    </label>
+                                </div>
+                            </div>
+                        </div>
+                    </fieldset>
+                    <div class="form-group">
+                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" name="textArea"
+                                  placeholder="Describe Your Feedback"></textarea>
+                    </div>
+                    <div class="form-group row">
+                        <div class="col-sm-3">
+                            <button class="btn btn-lg" type="submit">SEND</button>
+                            <!--                        <a href="#" class="btn btn-lg">Button</a>-->
+                        </div>
+                    </div>
+                </form>
+            </div>
+            <div class="col-12 col-sm-5 left-colum">
+                <div class="row">
+                    <h2>Contact Infomation</h2>
+                </div>
+                <div>
+                    <i class="fa fa-home col-sm-12"> 136 Ho Tung Mau</i>
+                    <i class="fa fa-phone col-sm-12"> +84 0911444111</i>
+                    <i class="fa fa-envelope col-sm-12"> calligraphy@gmail.com</i>
+                    <i class="fa fa-skype col-sm-12"> Skype</i>
+                    <i class="fa fa-twitter col-sm-12"> twitter</i>
+                    <i class="fa fa-facebook-square col-sm-12"> Facebook</i>
+                    <i class="fa fa-youtube col-sm-12"> Youtube</i>
+                    <i class="fa fa-pinterest-square col-sm-12"> Pinterest</i>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!--&#45;&#45;&#45;&#45;&#45;&#45;-->
+<footer>
+    <div class="footer-top">
+        <div class="container">
+            <div class="row controlfooter animate__animated">
+                <div class="col-md-4 col-lg-4 footer-about wow fadeInUp animated "
+                     style="visibility: visible; animation-name: fadeInUp">
+                    <a href="">
+                        <h3>About</h3>
+                    </a>
+                    <!-- <img class="logo-footer" src="/img/home/are-you1.png" alt="logo-footer" data-at2x=""
+        width="150px" height="150px" />
+      <p> -->
+                    We are a young company always looking for new and creative ideas to
+                    help you with our products in your everyday work.
+                    </p>
+                    <p><a href="#">Our Team</a></p>
+                </div>
+                <div class="col-md-4 col-lg-4 offset-lg-1 footer-contact wow fadeInDown animated "
+                     style="visibility: visible; animation-name: fadeInDown">
+                    <a href="">
+                        <h3>Contact</h3>
+                    </a>
+                    <p>
+                        <i class="fas fa-map-marker-alt"></i> Via Rossini 10, 10136 Turin
+                        Italy
+                    </p>
+                    <p><i class="fas fa-phone"></i> Phone: (0039) 333 12 68 347</p>
+                    <p>
+                        <i class="fas fa-envelope"></i> Email:
+                        <a href="mailto:hello@domain.com">hello@domain.com</a>
+                    </p>
+                </div>
+                <div class="col-md-4 col-lg-3 footer-social wow fadeInUp animated "
+                     style="visibility: visible; animation-name: fadeInUp">
+                    <h3>Follow us</h3>
+                    <ul class="list-contact">
+                        <li>
+                            <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        </li>
+                        <li><a href=""><i class="fab fa-twitter"></i></a></li>
+                        <li>
+                            <a href="#"><i class="fab fa-instagram"></i></a>
+                        </li>
+                        <li>
+                            <a href="#"><i class="fab fa-pinterest-p"></i></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer-bottom">
+        <div class="container">
+            <div class="row controlfooter animate__animated">
+                <div class="col-md-7 footer-menu">
+                    <nav class="navbar navbar-dark navbar-expand-md">
+                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarNav">
+                            <ul class="navbar-nav ml-auto">
+                                <li class="nav-item">
+                                    <a class="nav-link scroll-link" href="#top-content">Home</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link scroll-link" href="#section-1">Category</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link scroll-link" href="#section-2">FAQ</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link scroll-link" href="#section-3">Block</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link scroll-link" href="#section-4">Help</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+<script src="bootstrap/js/jquery-3.6.0.min.js"></script>
+<script src="js/bootstrap.js"></script>
+<script src="js/Feedback_Form.js"></script>
+<script src="bootstrap/js/jquery.validate.js"></script>
+
+</body>
+</html>

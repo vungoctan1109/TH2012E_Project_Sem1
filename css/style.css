@@ -1665,7 +1665,20 @@ footer {
     justify-content: center;
     object-fit: cover;
     background-repeat: no-repeat;
-    z-index: 1;
+    color: #aaa;
+    font-family: "Montserrat Alternates", "Poppins", sans-serif;
+}
+footer p,footer h3{
+    color:  #aaa;
+}
+
+footer .container-fluid {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+
 }
 
 .footer-top {
@@ -1673,6 +1686,8 @@ footer {
     background: #333;
     text-align: left;
     color: #aaa;
+    display: flex;
+    justify-content: space-between;
 }
 .footer-bottom {
     padding: 15px 0;
@@ -1680,13 +1695,9 @@ footer {
     text-align: left;
     color: #aaa;
 }
-.container {
-    width: 100%;
-    padding-right: 15px;
-    padding-left: 15px;
-    margin-right: auto;
-    margin-left: auto;
-    background-image: url("../img/footerimg.png");
+.container-fluid {
+    justify-content: space-between;
+    text-align: center;
 }
 .footer-about p a {
     color: #aaa;
@@ -1731,6 +1742,7 @@ footer {
 .list-contact li a:hover {
     transform: translateY(-10px);
 }
+
 .list-contact li a::before {
     content: "";
     position: absolute;
@@ -1746,12 +1758,8 @@ footer {
     transform: skew(45deg) translateX(-150px);
 }
 
-footer a {
-    color: white;
-}
-
-footer a:hover {
-    color: white;
+li {
+    list-style-type: none;
 }
 
 /*Detail*/
