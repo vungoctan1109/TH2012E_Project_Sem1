@@ -510,7 +510,6 @@ footer .container-fluid {
     padding-left: 15px;
     margin-right: auto;
     margin-left: auto;
-    background-image: url(../img/footerimg.png);
 
 }
 
@@ -528,7 +527,7 @@ footer .container-fluid {
     text-align: left;
     color: #aaa;
 }
-.container-fluid {
+.footer-top .container-fluid {
     justify-content: space-between;
     text-align: center;
 }

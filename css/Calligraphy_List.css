@@ -603,13 +603,16 @@ footer p,footer h3{
     transform: skew(45deg) translateX(-150px);
 }
 
+.list-contact li {
+    list-style-type: none;
+}
+
 footer .container-fluid {
     width: 100%;
     padding-right: 15px;
     padding-left: 15px;
     margin-right: auto;
     margin-left: auto;
-    background-image: url(../img/footerimg.png);
 
 }
 /* loaderbox */
