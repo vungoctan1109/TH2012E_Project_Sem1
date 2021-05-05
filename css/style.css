@@ -1927,4 +1927,30 @@ li {
 /*loaderbox*/
 
 
+/* .logo-container */
+.logo-container {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    max-width: 100%;
+    max-height: 100%;
+}
+.logo-container span {
+    font-family: 'Dr Sugiyama', cursive;
+    font-weight: 300;
+    color: #fff;
+    font-size: 1.6rem;
+    /*font-weight: 600;*/
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    line-height: 3rem;
+}
+/* ./logo-container */
 
+header .container {
+    max-width: 100%;
+    padding: 0 2rem;
+    margin: 0 auto;
+    display: flex;
+    position: relative;
+}
