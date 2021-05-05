@@ -28,6 +28,15 @@ $().ready(function() {
                 required: "*Must not be left blank",
                 minlength: "*Please enter at least 20 characters"
             }
+        },
+        highlight: function (element) {
+            $(element).parent().addClass('error')
+        },
+        unhighlight: function (element) {
+            $(element).parent().removeClass('error')
         }
     });
+
+
+
 });

@@ -65,7 +65,10 @@ section p {
     display: block;
     padding: 0 30px;
 }
-
+.error {
+    color: red;
+    font-style: italic;
+}
 /*----------------------------*/
 .form-group .btn {
     background-color: #212529;
