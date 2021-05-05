@@ -46,7 +46,6 @@ header {
   align-items: center;
   max-width: 100%;
   max-height: 100%;
-  pointer-events: none;
 }
 .logo-container span {
     font-family: 'Dr Sugiyama', cursive;
