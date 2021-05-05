@@ -712,6 +712,7 @@ footer h3 {
   background: #333;
   text-align: center;
   color: #aaa;
+  
 }
 .footer-bottom {
   padding: 15px 0;
@@ -726,6 +727,7 @@ footer .container {
   padding-left: 15px;
   margin-right: auto;
   margin-left: auto;
+
 }
 .footer-about p a {
   color: #aaa;
