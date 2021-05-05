@@ -65,15 +65,24 @@ header img
   display: flex;
   position: relative;
 }
-
+/* .logo-container */
 .logo-container {
   flex: 1;
   display: flex;
   align-items: center;
   max-width: 100%;
   max-height: 100%;
-  /* pointer-events: none; */
 }
+.logo-container span {
+    font-family: 'Dr Sugiyama', cursive;
+    font-weight: 300;
+    color: #fff;
+    font-size: 1.6rem;
+    font-weight: 600;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    line-height: 3rem;
+} 
 
 .nav-btn {
   flex: 3;
@@ -91,16 +100,6 @@ header img
   flex: 1;
 }
 
-.logo-container span {
-    font-family: 'Dr Sugiyama', cursive;
-    font-weight: 300;
-    color: #fff;
-    font-size: 1.6rem;
-    font-weight: 600;
-    letter-spacing: 2px;
-    text-transform: uppercase;
-    line-height: 3rem;
-} 
 
 .btn {
   display: inline-block;
@@ -711,7 +710,7 @@ footer h3 {
 .footer-top {
   padding-top: 60px;
   background: #333;
-  text-align: left;
+  text-align: center;
   color: #aaa;
 }
 .footer-bottom {
