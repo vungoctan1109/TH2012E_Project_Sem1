@@ -805,7 +805,7 @@ footer a:hover {
     transform: rotate(180deg);
 }
 
-@media (max-width: 1000px)
+@media (max-width: 1162px)
 {
     .logo-container {
         display: none;

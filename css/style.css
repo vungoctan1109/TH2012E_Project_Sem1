@@ -1183,6 +1183,10 @@ a:hover {
 }
 
 /*header css*/
+<<<<<<< HEAD
+=======
+/* / menu / */
+>>>>>>> 019e2a9f3a6e6f6186ceaa0b74a14d76dc0b0379
 header {
     position: relative;
     top: 0;
@@ -1193,6 +1197,17 @@ header {
     background-image: url("../img/footerimg.png");
 }
 
+<<<<<<< HEAD
+=======
+.container {
+  max-width: 100%;
+  padding: 0 2rem;
+  margin: 0 auto;
+  display: flex;
+  position: relative;
+}
+/* / .logo-container / */
+>>>>>>> 019e2a9f3a6e6f6186ceaa0b74a14d76dc0b0379
 .logo-container {
     flex: 1;
     display: flex;
