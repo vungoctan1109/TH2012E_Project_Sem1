@@ -859,7 +859,7 @@ footer a:hover {
 
 @import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
 #team {
-    background: #eee !important;
+    background: #cacaca !important;
 }
 
 .btn-primary:hover,
@@ -889,7 +889,7 @@ section .section-title {
 
 #team .card {
     border: none;
-    background: #ffffff;
+    background: #eeeeee;
 }
 
 .image-flip:hover .backside,
@@ -966,7 +966,8 @@ section .section-title {
 
 .frontside .card,
 .backside .card {
-    min-height: 312px;
+    height: 350px;
+    /*overflow-x: hidden;*/
 }
 
 .backside .card a {
@@ -983,4 +984,7 @@ section .section-title {
     width: 120px;
     height: 120px;
     border-radius: 50%;
+}
+.card p {
+    color: #4f5050;
 }

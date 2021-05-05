@@ -28,7 +28,11 @@ section{
     right: 0px;
     bottom: 0px;
     left: 0px;
-    background-color: rgba(0,0,0,0.7);
+    background-color: rgba(78, 78, 78, 0.7);
+}
+.hero1{
+    background-color: #8c8c8c;
+    box-shadow: 8px 8px 15px white;
 }
 
 .left-colum{
@@ -71,10 +75,10 @@ section p {
 }
 /*----------------------------*/
 .form-group .btn {
-    background-color: #212529;
+    background-color: #3e3e3e;
     color: #fff;
-    font-size: 20px;
-    font-weight: 800;
+    font-size: 14px;
+    font-weight: 600;
     text-transform: uppercase;
     position: relative;
     border-radius: 0 !important;
