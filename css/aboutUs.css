@@ -28,14 +28,17 @@ div.container-xl {
 }
 
 body {
-    background-color: rgb(244, 241, 235);
+    background-color: rgb(109, 109, 109);
+    /*background-color: rgb(244, 241, 235);*/
     padding: 0 10px;
+    color: #FFFFFF;
 }
 
 h1,
 h2,
 p {
     font-family: 'Montserrat Alternates', sans-serif;
+    color: #FFFFFF;
 }
 
 h1 {
@@ -83,6 +86,13 @@ p {
 }
 .title-h2{
     font-size: xx-large;
+    color: #FFFFFF;
+    font-weight: bolder;
+    text-decoration: -moz-mac-accentdarkestshadow;
+}
+.title-h21{
+    color: #FFFFFF;
+font-size: medium;
 }
 .intro-text{
     transition: all 0.9s ease-in-out;
@@ -92,6 +102,9 @@ p {
 .intro-appear{
     opacity: 1;
     transform: translateY(0px);
+}
+.intro-text .imgFix {
+    opacity: 0.7;
 }
 
 /*-------------*/
