@@ -1,37 +1,40 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Feedback</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="../../TH2012E_Project_Sem1/TH2012E_Project_Sem1/css/font-awesome.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@200;400&display=swap"
+          rel="stylesheet">
+
     <script src="https://kit.fontawesome.com/64d58efce2.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
-          integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
           integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
-          crossorigin="anonymous" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+          crossorigin="anonymous"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
     <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css"/>
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+
+
+    <link rel="stylesheet" href="css/Feedback_Form.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
-    <link rel="stylesheet" href="../css/style.css">
-    <title>Indian caligraphy</title>
 </head>
 <body>
-<!--header-->
-<header class="header">
-    <div class="container-header">
+<header>
+    <div class="container">
         <input type="checkbox" name="" id="check">
-        <!-- //logo  -->
+        <!-- //logo -->
         <!-- <div class="logo-container">
-            <img src="/img/home/are-you1.png" alt="">
+        <img src="/img/home/are-you1.png" alt="">
         </div> -->
         <!-- nav-bar -->
         <div class="nav-btn ">
             <div class="nav-links animate__animated animate__bounceInDown animate__delay-1s">
                 <ul>
                     <li class="nav-link" style="--i: .6s">
-                        <a href="home.html">Home</a>
+                        <a href="Home.html">Home</a>
                     </li>
                     <li class="nav-link" style="--i: .85s">
                         <a href="#">Category<i class="fas fa-caret-down"></i></a>
@@ -124,72 +127,88 @@
         </div>
     </div>
 </header>
-<!--/header-->
-
-<!--content-->
-<section>
-    <div class="container">
-        <div class="wrap">
-            <div class="row">
-                <div class="col-md-8 content">
-                    <h1 class="post-title">Hindi alphabets a calligraphy</h1>
-                    <p>10/11/2014</p>
-                    <h2>Hindi Varnamala Chart</h2>
-                    <p>How to write Hindi Varnamala</p>
-                    <div class="content-img">
-                        <img src="http://www.hindigraphics.in/wp-content/uploads/2020/04/b1-1024x576.jpg" alt="" class="img-fluid">
+<section class="hero">
+    <div class="container-xl">
+        <div class="row hero1">
+            <div class="col-12 col-sm-7 divForm">
+                <div class="row ">
+                    <h2 class="align-self-sm-center">Get in touch with us</h2>
+                </div>
+                <div class="row">
+                    <p class="text-left">"We would love to hear your thoughts, suggestions, concerns or problems with anything so we can
+                        improve!"</p>
+                </div>
+                <form id="feedBackForm">
+                    <div class="form-group row">
+                        <div class="col-sm-10">
+                            <input type="text" class="form-control" id="fullName" name="fullName"
+                                   placeholder="Full Name">
+                        </div>
                     </div>
-
-                    <div class="content-img">
-                        <img src="http://www.hindigraphics.in/wp-content/uploads/2020/04/a40-1024x576.jpg" alt="" class="img-fluid">
+                    <div class="form-group row">
+                        <div class="col-sm-10">
+                            <input type="email" class="form-control" id="inputEmail3" name="email"
+                                   placeholder="Your email">
+                        </div>
                     </div>
-
-                    <div class="content-img">
-                        <img src="http://www.hindigraphics.in/wp-content/uploads/2020/04/a41-1024x576.jpg" alt="" class="img-fluid">
+                    <fieldset class="form-group">
+                        <div class="row">
+                            <div class="col-sm-10">
+                                <div class="form-check">
+                                    <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios1"
+                                           value="option1" checked>
+                                    <label class="form-check-label" for="gridRadios1">
+                                        Comments
+                                    </label>
+                                </div>
+                                <div class="form-check">
+                                    <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios2"
+                                           value="option2">
+                                    <label class="form-check-label" for="gridRadios2">
+                                        Suggestions
+                                    </label>
+                                </div>
+                                <div class="form-check">
+                                    <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios3"
+                                           value="option3">
+                                    <label class="form-check-label" for="gridRadios3">
+                                        Question
+                                    </label>
+                                </div>
+                            </div>
+                        </div>
+                    </fieldset>
+                    <div class="form-group">
+                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" name="textArea"
+                                  placeholder="Describe Your Feedback"></textarea>
                     </div>
-
-                    <div class="content-img">
-                        <img src="http://www.hindigraphics.in/wp-content/uploads/2020/04/a43-1024x576.jpg" alt="" class="img-fluid">
+                    <div class="form-group row">
+                        <div class="col-sm-3">
+                            <button class="btn btn-lg" type="submit">SEND</button>
+                            <!--                        <a href="#" class="btn btn-lg">Button</a>-->
+                        </div>
                     </div>
-
-                    <div class="content-img">
-                        <img src="http://www.hindigraphics.in/wp-content/uploads/2020/04/a47-1024x576.jpg" alt="" class="img-fluid">
-                    </div>
-
-                    <div class="content-img">
-                        <img src="http://www.hindigraphics.in/wp-content/uploads/2020/04/a50-1024x576.jpg" alt="" class="img-fluid">
-                    </div>
-                    <div class="content-img">
-                        <img src="http://www.hindigraphics.in/wp-content/uploads/2020/04/a55-1024x576.jpg" alt="" class="img-fluid">
-                    </div>
-
-                    <div class="content-img">
-                        <img src="http://www.hindigraphics.in/wp-content/uploads/2020/04/a88-1024x576.jpg" alt="" class="img-fluid">
-                    </div>
-
-                    <div class="content-img">
-                        <img src=" http://www.hindigraphics.in/wp-content/uploads/2020/04/b-1024x576.jpg" alt="" class="img-fluid">
-                    </div>
-
-                    <div class="content-img">
-                        <img src="http://www.hindigraphics.in/wp-content/uploads/2020/04/b2-1024x576.jpg" alt="" class="img-fluid">
-                    </div>
-
-                    <div class="content-img">
-                        <img src="http://www.hindigraphics.in/wp-content/uploads/2020/04/b3-1024x576.jpg" alt="" class="img-fluid">
-                    </div>
-
-                    <div class="content-img">
-                        <img src="http://www.hindigraphics.in/wp-content/uploads/2020/04/b4-1024x576.jpg" alt="" class="img-fluid">
-                    </div>
+                </form>
+            </div>
+            <div class="col-12 col-sm-5 left-colum">
+                <div class="row">
+                    <h2>Contact Infomation</h2>
+                </div>
+                <div>
+                    <i class="fa fa-home col-sm-12"> 136 Ho Tung Mau</i>
+                    <i class="fa fa-phone col-sm-12"> +84 0911444111</i>
+                    <i class="fa fa-envelope col-sm-12"> calligraphy@gmail.com</i>
+                    <i class="fa fa-skype col-sm-12"> Skype</i>
+                    <i class="fa fa-twitter col-sm-12"> twitter</i>
+                    <i class="fa fa-facebook-square col-sm-12"> Facebook</i>
+                    <i class="fa fa-youtube col-sm-12"> Youtube</i>
+                    <i class="fa fa-pinterest-square col-sm-12"> Pinterest</i>
                 </div>
             </div>
         </div>
     </div>
 </section>
-<!--/content-->
-
-<!--footer-->
+<!--&#45;&#45;&#45;&#45;&#45;&#45;-->
 <footer>
     <div class="footer-top">
         <div class="container">
@@ -275,17 +294,10 @@
         </div>
     </div>
 </footer>
-<!--/footer-->
-<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
-        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
-        crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns"
-        crossorigin="anonymous"></script>
-<script src="https://code.jquery.com/jquery-3.6.0.js"
-        integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
-<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
-<!--<script src="home.js"></script>-->
-<script src="js/gallery.js"></script>
+<script src="bootstrap/js/jquery-3.6.0.min.js"></script>
+<script src="js/bootstrap.js"></script>
+<script src="js/Feedback_Form.js"></script>
+<script src="bootstrap/js/jquery.validate.js"></script>
+
 </body>
 </html>
