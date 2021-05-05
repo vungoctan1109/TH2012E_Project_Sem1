@@ -71,7 +71,6 @@ header {
 }
 .logo-container span {
     font-family: 'Dr Sugiyama', cursive;
-    font-weight: 300;
     color: #fff;
     font-size: 1.6rem;
     font-weight: 600;
@@ -988,6 +987,12 @@ footer .container {
     margin-top: 71px !important;
   }
 }
+@media (max-width: 1162px)
+{
+  .logo-container {
+    display: none;
+  }
+} 
 /* loaderbox */
 .loaderbox {
   display: flex;
@@ -1065,3 +1070,5 @@ footer .container {
   font-size: 60px;
   transform: rotate(180deg);
 }
+
+
