@@ -36,7 +36,4 @@ $().ready(function() {
             $(element).parent().removeClass('error')
         }
     });
-
-
-
 });
