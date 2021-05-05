@@ -988,6 +988,12 @@ footer .container {
     margin-top: 71px !important;
   }
 }
+@media (max-width: 1162px)
+{
+  .logo-container {
+    display: none;
+  }
+} 
 /* loaderbox */
 .loaderbox {
   display: flex;
@@ -1065,3 +1071,5 @@ footer .container {
   font-size: 60px;
   transform: rotate(180deg);
 }
+
+
