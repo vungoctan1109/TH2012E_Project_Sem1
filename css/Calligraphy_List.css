@@ -597,6 +597,7 @@ footer {
     object-fit: cover;
     background-repeat: no-repeat;
     color: #aaa;
+    font-family: "Montserrat Alternates", "Poppins", sans-serif;
 }
 footer p,footer h3{
     color:  #aaa;
