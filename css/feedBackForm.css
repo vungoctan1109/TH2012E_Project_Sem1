@@ -17,7 +17,7 @@ section{
     display: flex;
     align-items: center;
     justify-content: center;
-    background-image: url('https://res.cloudinary.com/quynv300192/image/upload/v1620137939/PROJECT%20KI%201/google-map-background_fskwwm.jpg');
+    background-image: url('https://res.cloudinary.com/quynv300192/image/upload/v1620175015/PROJECT%20KI%201/maxresdefault_1_ap4cz0.jpg');
     background-size: cover;
 }
 
@@ -145,7 +145,7 @@ header {
     z-index: 1000;
     padding: 10px;
     background-color: #333;
-    background-image: url(/img/footerimg.png);
+    background-image: url("../img/footerimg.png");
 }
 
 .container {
