@@ -525,9 +525,9 @@ footer .container-fluid {
     padding: 15px 0;
     background: #333;
     text-align: left;
-    color: #aaa;
+        color: #aaa;
 }
-.footer-top .container-fluid {
+.container-fluid {
     justify-content: space-between;
     text-align: center;
 }
