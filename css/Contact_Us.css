@@ -856,7 +856,7 @@ footer .container-fluid {
     }
 }
 
-.error {
+ .error {
     color:red;
     font-style: italic;
     font-size: 14px;
