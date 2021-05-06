@@ -14,13 +14,14 @@ section{
 }
 .hero {
     position: relative;
-    height: 90vh;
+    height: max-content;
     width: 100%;
-    display: flex;
+    display: block;
     align-items: center;
     justify-content: center;
     background-image: url('https://res.cloudinary.com/quynv300192/image/upload/v1620175015/PROJECT%20KI%201/maxresdefault_1_ap4cz0.jpg');
     background-size: cover;
+    padding: 20px 0;
 }
 
 .hero::before {
@@ -35,6 +36,7 @@ section{
 .hero1{
     background-color: #8c8c8c;
     box-shadow: 8px 8px 15px white;
+    height: fit-content;
 }
 
 .left-colum{
@@ -69,6 +71,7 @@ section p {
 
 .divForm {
     display: block;
+    height: fit-content;
     padding: 0 30px;
 }
 .error {
@@ -453,7 +456,7 @@ font-weight: 300;
 
 @media (max-width: 920px) {
     header {
-        position: fixed;
+        /*position: fixed;*/
     }
 
     .logo-container {
