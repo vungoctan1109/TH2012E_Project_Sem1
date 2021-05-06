@@ -146,16 +146,16 @@
                     <form class="contact-from">
                         <div class="row">
                             <div class="col-md-6">
-                                <input type="text" placeholder="Your name">
+                                <input type="text" name="name" placeholder="Your name" required>
                             </div>
                             <div class="col-md-6">
-                                <input type="text" placeholder="Your e-mail">
+                                <input type="email" name="email" placeholder="Your email" required>
                             </div>
                             <div class="col-md-12">
-                                <input type="text" placeholder="Subject">
-                                <textarea placeholder="Message"></textarea>
-                                <button class="site-btn">send message</button>
+                                <input type="text" name="subject" placeholder="Subject" required>
+                                <textarea name="message" placeholder="Message" required></textarea>
                             </div>
+                            <button type="submit" class="site-btn">send message</button>
                         </div>
                     </form>
                 </div>
@@ -249,6 +249,8 @@
 </footer>
 <script src="bootstrap/js/bootstrap.js"></script>
 <script src="bootstrap/js/jquery-3.6.0.min.js"></script>
+<script src="bootstrap/js/jquery.validate.js"></script>
 <script src="js/Load_Effect.js"></script>
+<script src="js/Contact_Us.js"></script>
 </body>
 </html>

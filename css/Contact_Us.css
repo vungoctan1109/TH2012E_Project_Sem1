@@ -429,14 +429,14 @@ section ul {
     font-weight: 500;
     margin-bottom: 14px;
     color: #6a7080;
-    background: #f5f6fa;
+    background: #d3d3d380;
 }
 
 .contact-from textarea {
     resize: none;
     padding: 24px 38px 10px;
     height: 177px;
-    margin-bottom: 57px;
+    margin-bottom: 10px;
 }
 
 .section-title {
@@ -455,7 +455,7 @@ section ul {
     border: none;
     font-size: 14px;
     font-weight: 500;
-    min-width: 195px;
+    max-width: 195px;
     padding: 23px 20px;
     border-radius: 50px;
     text-transform: uppercase;
@@ -854,4 +854,11 @@ footer .container-fluid {
     .logo-container {
         display: none;
     }
+}
+
+.error {
+    color:red;
+    font-style: italic;
+    font-size: 14px;
+    font-weight: 1000;
 }
