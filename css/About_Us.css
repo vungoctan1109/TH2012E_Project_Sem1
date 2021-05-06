@@ -9,8 +9,22 @@
   margin-right: auto;
   margin-left: auto;
 }
+.h2-only1{
+  font-family: "Dr Sugiyama", cursive;
+  font-size: 3rem;
+  color: #ffffff;
+  font-weight: lighter;
+}
+.h3-only1{
+  font-size: 1.2rem;
+  color: #ffffff;
+  font-family: 'Montserrat Alternates', sans-serif;
+  text-align: center;
+  alignment: center;
+}
 .div-whoweare{
-  width: 50%;
+margin: 0;
+  padding: 0;
 }
 a {
   text-decoration: none;
