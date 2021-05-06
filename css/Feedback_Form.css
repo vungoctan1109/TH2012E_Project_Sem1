@@ -610,6 +610,12 @@ font-weight: 300;
 }
 
 /*footer*/
+/*footer*/
+footer p,
+footer h3 {
+    color: #aaa;
+}
+
 footer {
     padding: 0;
     margin: 0;
@@ -619,16 +625,21 @@ footer {
     justify-content: center;
     object-fit: cover;
     background-repeat: no-repeat;
-    z-index: 1;
+    color: #aaa;
+    font-family: "Montserrat Alternates", "Poppins", sans-serif;
+}
+footer p,footer h3{
+    color:  #aaa;
 }
 
 .footer-top {
     padding-top: 60px;
     background: #333;
-    text-align: left;
+    text-align: center;
     color: #aaa;
+    display: flex;
+    justify-content: space-between;
 }
-
 .footer-bottom {
     padding: 15px 0;
     background: #333;
@@ -636,25 +647,22 @@ footer {
     color: #aaa;
 }
 
-.container {
+.container-fluid {
     width: 100%;
     padding-right: 15px;
     padding-left: 15px;
     margin-right: auto;
     margin-left: auto;
-    background-image: url(/img/footerimg.png);
+    /* background-image: url(../img/footerimg.png); */
 }
-
 .footer-about p a {
     color: #aaa;
     border-bottom: 1px dashed #666;
 }
-
 .footer-contact p a {
     color: #aaa;
     border-bottom: 1px dashed #666;
 }
-
 .list-contact {
     position: relative;
     display: flex;
@@ -663,12 +671,10 @@ footer {
     width: 100%;
     height: 100%;
 }
-
 .list-contact li {
     position: relative;
     padding: 25px;
 }
-
 .list-contact li a {
     position: relative;
     width: 40px;
@@ -689,11 +695,9 @@ footer {
     transition: 0.5s;
     overflow: hidden;
 }
-
 .list-contact li a:hover {
     transform: translateY(-10px);
 }
-
 .list-contact li a::before {
     content: "";
     position: absolute;
@@ -705,18 +709,10 @@ footer {
     transform: skew(45deg) translateX(150px);
     transition: 0.5s;
 }
-
 .list-contact li a:hover:before {
     transform: skew(45deg) translateX(-150px);
 }
 
-footer a {
-    color: white;
-}
-
-footer a:hover {
-    color: white;
-}
 /*............................*/
 .loaderbox
 {
